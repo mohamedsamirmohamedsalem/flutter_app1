@@ -11,7 +11,7 @@ class myApp extends StatelessWidget{
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: Text('first App')),
-        body: ProductManager()
+        body: ProductManager('mohamed samir')
         ),
       );
   }
